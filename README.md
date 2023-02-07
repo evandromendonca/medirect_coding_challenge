@@ -10,10 +10,15 @@
 ## Tech Stack
 
 **Database:** PostgreSQL 15
+
 **Caching**: Redis
+
 **Web API:** Net 6
+
 **Logging**: Serilog
+
 **Unit testing**: xUnit, Moq and MockHttp
+
 **Exchange rate providers:**
 
 - Fixer API: https://apilayer.com/marketplace/fixer-api
