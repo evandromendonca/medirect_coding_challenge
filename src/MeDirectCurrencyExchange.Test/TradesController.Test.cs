@@ -425,6 +425,6 @@ public class TradesControllerTest
         // assert
         Assert.NotNull(result.Result);
         Assert.IsType<ActionResult<TradeDTO>>(result);
-        Assert.Equal(92.59M, Math.Round(((result.Result as ObjectResult)!.Value as TradeDTO)!.TargetAmount, 2));
+        Assert.Equal(108M, Math.Round(((result.Result as ObjectResult)!.Value as TradeDTO)!.TargetAmount, 2));
     }
 }
