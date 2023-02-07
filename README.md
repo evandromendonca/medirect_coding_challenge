@@ -1,6 +1,6 @@
 # MeDirect
 
-## Curency Converter
+## Currency Converter
 
 ### Assumptions
 
@@ -21,7 +21,7 @@
 
 ## How to
 
-- To create the database, execute the sql script `database_script.sql` found on the root of te repository
+- To create the database, execute the sql script `database_script.sql` found on the root of the repository
 - For a dockerized version of Redis run `docker run -p 6379:6379 --name redis -d redis`, or update the `appsettings.Development.json` => `ConnectionStrings:Redis` with a connection string to a running instance of Redis
 - For the PostgreSql database, the connection string can be found in `appsettings.Development.json` => `ConnectionStrings:CurrencyExchangeDatabase`
 - You can find the main project source code in `src\MeDirectCurrencyExchange.Api`
